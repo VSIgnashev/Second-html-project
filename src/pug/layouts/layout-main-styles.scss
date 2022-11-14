@@ -1,0 +1,12 @@
+@import "../../styles/utility/variables.scss";
+@import "../../styles/utility/fonts.scss";
+
+*, *::before,*::after{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: $font-size-main;
+    color:$color-mine-shaft;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

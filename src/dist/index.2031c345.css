@@ -1,0 +1,24 @@
+.content-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-content {
+  display: flex;
+}
+
+.header-content__number {
+  color: red;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.header {
+  min-height: 116px;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.2031c345.css.map */
