@@ -1,20 +1,30 @@
 header.header
     .content-wrapper.header-content
         ul.header-content__list
+            li.header-content__item.header-content__item_noml
+                label(for="catalog")
+                select#catalog.header-content__catalog-dropdown(name="catalog")
+                    option(value="") КАТАЛОГ
+                    option(value="armchair") Кресла
+                    option(value="chair") Стулья
+                    option(value="beds") Кровати
+                    option(value="mattress") Матрацы
+                    option(value="padded-stool") Пуфы
+                    option(value="exclusive-furniture") Эксклюзивная мебель
+                    option(value="2D-3D-models") 2D-3D модели
             li.header-content__item
-                a.header-content__link(href="#") 
+                a.header-content__link(href="#") Индивидуальная мебель
+            li.header-content__item.header-content__item_ml-51
+                a.header-content__link(href="#") Контакты
             li.header-content__item
-                a.header-content__link(href="#") 
-            li.header-content__item
-                a.header-content__link(href="#") 
-            li.header-content__item
-                a.header-content__link(href="#")
-                    img(src="#", alt="")
-            li.header-content__item
-                a.header-content__link(href="#") 
-        .header-content__number Whereas recognition of the inherent dignity
-        label(for="language-select") 
-        select#language-select.header-content__language-dropdown(name="language")
-            option(value="RU") RU
-            option(value="UA") EU
-            option(value="EN") EN
+                a(href="#")
+                    img.header-content__logo(src="./icons/logo_main.png", alt="")
+            li.header-content__item.header-content__item_ml-46
+                a.header-content__link(href="#") О компании
+        p.header-content__number +38 (099)-638-45-37
+        .header-content__select-lang-wrapper
+            label(for="language-select") 
+            select#language-select.header-content__language-dropdown(name="language")
+                option(value="RU") RU
+                option(value="UA") EU
+                option(value="EN") EN
