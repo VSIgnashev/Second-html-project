@@ -1,0 +1,15 @@
+@import "./../../../../styles/utility/variables.scss";
+
+.furniture-item__name{
+    margin-top: 15px;
+    line-height: 22px;
+    text-transform: uppercase;
+    
+}
+
+.furniture-item__price{
+    font-family: OpenSans;
+    font-weight: 600;
+    line-height: 25px;
+    color:$color-tree-poppy;
+}

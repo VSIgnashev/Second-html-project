@@ -1,3 +1,4 @@
+include \..\mixins\main-furniture-item-mixin\main-furniture-item-mixin.pug
 doctype html
 html(lang="en")
     head
@@ -9,6 +10,7 @@ html(lang="en")
         link(rel="stylesheet", href="./pug/layouts/layout-main-styles.scss")
         link(rel="stylesheet", href="./pug/includes/main-header/styles/header.scss")
         link(rel="stylesheet", href="./pug/includes/main-top-section/styles/life.scss")
+        link(rel="stylesheet", href="./pug/mixins/main-furniture-item-mixin/styles/main-furniture-item-mixin.scss")
         block additional-style
     body
         block header
@@ -17,3 +19,5 @@ html(lang="en")
             p 123
         block UnExpectedName
             p haha   
+        block LetsTrySomeMixins
+        +main-furniture-item-mixin('img/Newbie_chair_1.png','sofa','100')
