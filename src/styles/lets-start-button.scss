@@ -1,0 +1,34 @@
+@import "./utility/variables.scss";
+
+.lets-start-button{
+    width: 268px;
+    height: 43px;
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color:$color-white;
+    text-transform: uppercase;
+    text-align: center;
+
+    
+
+    border:none;
+    background-color: $color-tree-poppy;
+}
+
+.lets-start-button_small{
+    width: 210px;
+}
+
+.lets-start-button_big
+{
+    width: 271px;
+    height: 42px;
+}
+
+.lets-start-button_wide{
+    width: 218px;
+    height: 50px;
+}

@@ -8,10 +8,12 @@ html(lang="en")
         link(rel="stylesheet", href="./styles/utility/variables.scss")
         link(rel="stylesheet", href="./pug/layouts/layout-main-styles.scss")
         link(rel="stylesheet", href="./pug/includes/main-header/styles/header.scss")
+        link(rel="stylesheet", href="./pug/includes/main-top-section/styles/life.scss")
         block additional-style
     body
         block header
             include /pug/includes/main-header/main-header.pug
+            include /pug/includes/main-top-section/main-top-section.pug
             p 123
         block UnExpectedName
             p haha   
