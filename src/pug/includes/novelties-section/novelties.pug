@@ -1,0 +1,12 @@
+.content-wrapper.novelties
+    .novelties__topper
+        .novelties__heading #[span.novelties__first-letter Н]овинки
+    .novelties__slider-wrapper
+        img.novelties__left-arrow(src="./icons/grey_arrow.png", alt="")
+        .novelties__slider-images
+            +main-furniture-item-mixin('./img/Newbie_chair_1.png','Alba','15 000')
+            +main-furniture-item-mixin('./img/Martin.png','Martin','15 000')
+            +main-furniture-item-mixin('./img/Luara.png','Luara','15 000')
+        img.novelties__right-arrow(src="./icons/grey_arrow.png", alt="")
+    .novelties__button-row
+        .novelties__button.lets-start-button.lets-start-button_big перейти в каталог

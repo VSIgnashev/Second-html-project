@@ -1,15 +1,33 @@
-@import "./../../../../styles/utility/variables.scss";
+.furniture-item__rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 270px;
+    height: 278px;
+    background-color:$color-athens-gray;
+}
+
+.furniture-item__img{
+    width: 267px;
+    height: auto;
+
+}
 
 .furniture-item__name{
     margin-top: 15px;
     line-height: 22px;
     text-transform: uppercase;
+    text-align: center;
     
 }
 
 .furniture-item__price{
+    margin-top: 8px;
+
     font-family: OpenSans;
     font-weight: 600;
     line-height: 25px;
     color:$color-tree-poppy;
+    text-align: center;
 }
