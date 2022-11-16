@@ -1,0 +1,21 @@
+@import "../../styles/utility/variables.scss";
+@import "../../styles/utility/fonts.scss";
+@import "../../styles/utility/content-wrapper.scss";
+@import "../../styles/utility/lame-pc-wrapper.scss";
+@import "../../styles/lets-start-button.scss";
+@import "../mixins/main-furniture-item-mixin/styles/main-furniture-item-mixin.scss";
+@import "../../pug/includes/main-header/styles/header-content.scss";
+@import "../includes/main-footer/styles/main-footer.scss";
+@import "../includes/main-top-section/styles/life-content.scss";
+
+
+
+*, *::before,*::after{
+    font-family: $font-Raleway;
+    font-weight: 500;
+    font-size: $font-size-main;
+    color:$color-mine-shaft;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

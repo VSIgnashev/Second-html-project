@@ -6,20 +6,12 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Document
-        link(rel="stylesheet", href="./styles/utility/variables.scss")
-        link(rel="stylesheet", href="./pug/layouts/layout-main-styles.scss")
-        link(rel="stylesheet", href="./pug/includes/main-header/styles/header.scss")
-        link(rel="stylesheet", href="./pug/includes/main-top-section/styles/life.scss")
-        link(rel="stylesheet", href="./pug/mixins/main-furniture-item-mixin/styles/main-furniture-item-mixin.scss")
+        link(rel="stylesheet", href="./pug/layouts/main-style.scss")
         block additional-style
     body
-        block header
-            include /pug/includes/main-header/main-header.pug
-            include /pug/includes/main-top-section/main-top-section.pug
-            p 123
-        block UnExpectedName
-            p haha   
-        block LetsTrySomeMixins
-        +main-furniture-item-mixin('img/Newbie_chair_1.png','sofa','100')
-        block footer
-            include /pug/includes/main-footer/main-footer.pug
+        .lame-pc-wrapper
+            block header
+                include /pug/includes/main-header/main-header.pug
+                include /pug/includes/main-top-section/main-top-section.pug
+            block footer
+                include /pug/includes/main-footer/main-footer.pug

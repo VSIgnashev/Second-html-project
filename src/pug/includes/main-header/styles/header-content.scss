@@ -1,5 +1,11 @@
 .header-content{
     display: flex;
+    min-height: 116px;
+}
+
+
+.header-content__wrapper{
+    display: flex;
     align-items:flex-start;
     column-gap:15px;
 }
