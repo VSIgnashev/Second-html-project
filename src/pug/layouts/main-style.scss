@@ -4,11 +4,14 @@
 @import "../../styles/utility/lame-pc-wrapper.scss";
 @import "../../styles/lets-start-button.scss";
 @import "../mixins/main-furniture-item-mixin/styles/main-furniture-item-mixin.scss";
+@import "../mixins/history-bg/styles/history-bg-mixin.scss";
 @import "../../pug/includes/main-header/styles/header-content.scss";
 @import "../includes/main-footer/styles/main-footer.scss";
 @import "../includes/main-top-section/styles/life-content.scss";
 @import "../includes/novelties-section/styles/novelties.scss";
 @import "../includes/individual-furniture-section/styles/individual.scss";
+@import "../includes/our-history-section/styles/history.scss";
+@import "../includes/last-publications/styles/last-publications.scss";
 
 
 *, *::before,*::after{

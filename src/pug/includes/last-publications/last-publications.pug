@@ -1,0 +1,13 @@
+.publications
+    .content-wrapper
+        .publications__heading  #[span.publication__first-letter П]оследние публикации
+        .publications__gallery
+            img.publications__arrow-left(src="./icons/last_publications_arrow.png", alt="")
+            .publications__images-wrapper
+                +main-furniture-item-mixin('./img/Martin.png','martin')
+                +main-furniture-item-mixin('./img/Alba.png','alba')
+                +main-furniture-item-mixin('./img/Toscana.png','toscana')
+                +main-furniture-item-mixin('./img/Leonardo.png','leonardo')
+            img.publications__arrow-right(src="./icons/last_publications_arrow.png", alt="")
+
+

@@ -1,4 +1,5 @@
 include \..\mixins\main-furniture-item-mixin\main-furniture-item-mixin.pug
+include \..\mixins\history-bg\history-bg-mixin.pug
 doctype html
 html(lang="en")
     head
@@ -16,5 +17,7 @@ html(lang="en")
             block body
                 include /pug/includes/novelties-section/novelties.pug
                 include /pug/includes/individual-furniture-section/individual.pug
+                include /pug/includes/our-history-section/history.pug
+                include /pug/includes/last-publications/last-publications.pug
             block footer
                 include /pug/includes/main-footer/main-footer.pug

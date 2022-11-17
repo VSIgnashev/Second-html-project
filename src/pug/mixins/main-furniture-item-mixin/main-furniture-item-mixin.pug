@@ -3,4 +3,5 @@ mixin main-furniture-item-mixin(pic,name,price)
         .furniture-item__rectangle
             img.furniture-item__img(src=pic, alt="")
         p.furniture-item__name=name
-        p.furniture-item__price=price +' UAH'
+        if price
+            p.furniture-item__price=price +' UAH'

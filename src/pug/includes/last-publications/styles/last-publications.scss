@@ -1,0 +1,46 @@
+.publications{
+    margin-top: 114px;
+    min-height: 588px;
+}
+
+.publications__heading{
+
+
+
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 150%;
+    
+}
+
+.publication__first-letter{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 150%;
+    color:$color-tree-poppy;
+}
+
+.publications__gallery{
+    margin-top: 71px;
+
+    display: flex;
+    align-items:center;
+}
+
+.publications__arrow-left{
+    margin-top: -37px;
+}
+
+.publications__images-wrapper{
+    margin-left: 18px;
+
+    display: flex;
+    column-gap: 7px;
+}
+
+.publications__arrow-right{
+    margin-top: -37px;
+    margin-left: 20px;
+
+    transform: rotate(180deg);
+}
