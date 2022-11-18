@@ -19,8 +19,9 @@
 
                 .questions__checkbox-wrapper
                     label.visually-hidden(for="user-agreement") user agreement
-                    input.questions__input.questions__checkbox(type="checkbox")
-                    p.questions__agreement Подтверждая заказ, я принимаю условия пользовательского соглашения
+                    input.questions__checkbox(type="checkbox")
+                    .agreement-wrapper
+                        p.questions__agreement Подтверждая заказ, я принимаю условия пользовательского соглашения
 
                 label.visually-hidden(for="submit-button") Request a call
                 button.questions__button.lets-start-button.lets-start-button_big(type="submit") запросить звонок     
