@@ -1,5 +1,6 @@
 @import "../../styles/utility/variables.scss";
 @import "../../styles/utility/fonts.scss";
+@import "../../styles/utility/visually-hidden.scss";
 @import "../../styles/utility/content-wrapper.scss";
 @import "../../styles/utility/lame-pc-wrapper.scss";
 @import "../../styles/lets-start-button.scss";
@@ -12,6 +13,7 @@
 @import "../includes/individual-furniture-section/styles/individual.scss";
 @import "../includes/our-history-section/styles/history.scss";
 @import "../includes/last-publications/styles/last-publications.scss";
+@import "../includes/questions-section/styles/questions.scss";
 
 
 *, *::before,*::after{

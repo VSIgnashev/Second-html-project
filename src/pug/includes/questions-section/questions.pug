@@ -1,0 +1,26 @@
+.questions
+    .content-wrapper.questions__body
+        img.questions__bg-img(src="./img/questions_bg_img.jpg", alt="")
+        form.questions__form(action="#") 
+            h3.questions__subheader Заполните форму
+            h2.questions__header остались вопросы?
+            .questions__inner-form-wrapper
+                label.visually-hidden(for="name" class="vi") Name
+                input.questions__input.questions__name(type="text" id="name" placeholder="Ваше имя*")
+
+                label.visually-hidden(for="number" class="visuallyhidden") Phone number
+                input.questions__input.questions__number(type="tel" id="number" placeholder="Ваш номер телефона*")
+
+                label.visually-hidden(for="country") Country
+                input.questions__input.questions__country(type="text" id="country" placeholder="Страна") 
+
+                label.visually-hidden(for="commentary") Commentary
+                input.questions__input.questions__commentary(type="text" id="commentary" placeholder="Комментарий")
+
+                .questions__checkbox-wrapper
+                    label.visually-hidden(for="user-agreement") user agreement
+                    input.questions__input.questions__checkbox(type="checkbox")
+                    p.questions__agreement Подтверждая заказ, я принимаю условия пользовательского соглашения
+
+                label.visually-hidden(for="submit-button") Request a call
+                button.questions__button.lets-start-button.lets-start-button_big(type="submit") запросить звонок     
