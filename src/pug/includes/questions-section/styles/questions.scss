@@ -15,7 +15,7 @@
     position: relative;
     right: 70px;
 
-    width: 470px;
+    max-width: 470px;
     width: 100%;
     min-height: 417px;
     background-color:$color-white;
@@ -36,6 +36,7 @@
     margin-top: -104px;
     margin-left: -72px;
 
+
     font-weight: 700;
     font-size: 28px;
     line-height: 33px;
@@ -46,6 +47,7 @@
     position: relative;
     top: 15px;
     left: -5px;
+    z-index: 0;
 
     content:'О';
     font-weight: 800;
@@ -70,6 +72,7 @@
     width: 371px;
     border:none;
     border-bottom: 1px solid #D1D1D1;
+    z-index: 1;
 }
 
 .questions__input::placeholder{
@@ -86,7 +89,8 @@
 .questions__checkbox{
     width: 20px;
     height: 20px;
-  
+    flex-shrink: 1;
+
     outline: 1px solid $color-alto;
 }
 
