@@ -52,7 +52,8 @@
 
 
 .footer__nav-col1{
-    margin-left: 50px;
+    margin-left: 80px;
+    margin-top: 75px;
 
     max-width: 133px;
     width: 100%;
@@ -60,10 +61,6 @@
 }
 
 .footer__list{
-
-
-    margin-top: 75px;
-    margin-left: 31px;
 
     display: flex;
     flex-direction: column;
@@ -84,34 +81,25 @@
 }
 
 .footer__nav-col2{
-    margin-top: 63px;
+    margin-top: 74px;
     margin-left: 82px;
-
-    display: flex;
-    flex-direction: column;
-    row-gap: 12px;
     
     list-style-type: none;
 }
 
 .footer__list-c2{
     flex-direction: column;
-    row-gap: 5px;
-    margin-left: 31px;
+    row-gap: 14px;
     list-style-type: none;
     display: flex;
 }
 
-.footer__item-c2{
-    margin-top: 10px;
-}
 
 .footer__contacts{
     display: flex;
     flex-direction: column;
-    row-gap: 32px;
-
-    margin-top: 79px;
+    row-gap: 34px;
+    margin-top: 78px;
     margin-left: 162px;
 }
 
