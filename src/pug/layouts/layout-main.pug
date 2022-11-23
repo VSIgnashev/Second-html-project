@@ -1,7 +1,7 @@
 include \..\mixins\main-furniture-item-mixin\main-furniture-item-mixin.pug
 include \..\mixins\history-bg\history-bg-mixin.pug
 doctype html
-html(lang="en")
+html(lang="ru")
     head
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
@@ -10,10 +10,11 @@ html(lang="en")
         link(rel="stylesheet", href="./pug/layouts/main-style.scss")
         block additional-style
     body
-        .lame-pc-wrapper
             block header
-                include /pug/includes/main-header/main-header.pug
-                include /pug/includes/main-top-section/main-top-section.pug
-            block body
+                .lame-pc-wrapper
+                    include /pug/includes/main-header/main-header.pug
+                    include /pug/includes/main-top-section/main-top-section.pug
+            .lame-pc-wrapper
+                block body
             block footer
                 include /pug/includes/main-footer/main-footer.pug

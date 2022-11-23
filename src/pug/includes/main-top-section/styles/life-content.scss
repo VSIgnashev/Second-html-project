@@ -1,83 +1,76 @@
-.life-content{
-    position:relative;
-    min-height: 745px;
-
+.life-content {
+  position: relative;
+  min-height: 745px;
 }
 
-.life-content__background{
-
-position:absolute;
-min-height: 590px;
-width: 100%;
-background-color:$color-rodeo-dust;
-
-z-index: -1;
+.life-content__background {
+  position: absolute;
+  min-height: 590px;
+  width: 100%;
+  background-color: $color-rodeo-dust;
+  z-index: -1;
 }
 
-
-.life-content__wrapper{
-    display: flex;
-    justify-content: space-between;
+.life-content__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
-.life-content__slogan{
-    margin-top: 175px;
-
-    width: 270px;
-    max-width: 100%;
-
-    font-weight: 600;
-    font-size: 42px;
-    line-height: 46.2px;
-    color:$color-white;
-    text-transform:uppercase ;
+.life-content__slogan {
+  margin-top: 175px;
+  width: 270px;
+  max-width: 100%;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 46.2px;
+  color: $color-white;
+  text-transform: uppercase;
 }
 
-.life-content__first-letter{
-    font-weight: 600;
-    font-size: 42px;
-    line-height: 46.2px;
-    color:$color-tree-poppy;
+.life-content__first-letter {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 46.2px;
+  color: $color-tree-poppy;
 }
 
-.life-content__button{
-    margin-top: 58px;
-    margin-left: -1px;
+.life-content__button {
+  margin-top: 58px;
+  margin-left: -1px;
 }
 
-.life-content__img-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.life-content__img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.life-content__founded{
-    margin-top: 36px;
-
-    font-size:20px;
-    font-weight: 400;
-    line-height: 127.5%;
-    color:$color-white;
+.life-content__founded {
+  margin-top: 36px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 127.5%;
+  color: $color-white;
 }
 
-.life-content__img{
-    margin-top: 50px;
+.life-content__img {
+  margin-top: 50px;
 }
 
-.life-content__slider-placeholder{
-    align-self: center;
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
+.life-content__slider-placeholder {
+  align-self: center;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
 }
 
-.life-content__circle{
-    width: 13px;
-    height: 13px;
-    border-radius: 100%;
-    background-color:$color-tree-poppy;
+.life-content__circle {
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  background-color: $color-tree-poppy;
 }
 
-.life-content__circle_null{
-    background-color: rgba(242, 243, 245, 1);
+.life-content__circle--null {
+  background-color: rgb(242 243 245 / 100%);
 }

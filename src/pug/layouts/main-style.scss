@@ -1,29 +1,49 @@
-@import "../../styles/utility/variables.scss";
-@import "../../styles/utility/fonts.scss";
-@import "../../styles/utility/visually-hidden.scss";
-@import "../../styles/utility/content-wrapper.scss";
-@import "../../styles/utility/lame-pc-wrapper.scss";
-@import "../../styles/lets-start-button.scss";
-@import "../mixins/main-furniture-item-mixin/styles/main-furniture-item-mixin.scss";
-@import "../mixins/history-bg/styles/history-bg-mixin.scss";
-@import "../../pug/includes/main-header/styles/header-content.scss";
-@import "../includes/main-footer/styles/main-footer.scss";
-@import "../includes/main-top-section/styles/life-content.scss";
-@import "../includes/novelties-section/styles/novelties.scss";
-@import "../includes/individual-furniture-section/styles/individual.scss";
-@import "../includes/our-history-section/styles/history.scss";
-@import "../includes/last-publications/styles/last-publications.scss";
-@import "../includes/questions-section/styles/questions.scss";
-@import "../includes/advantages-section/styles/advantages.scss";
-@import "../includes/partners-section/styles/partners.scss";
-@import "../includes/bottom-gallery-section/styles/bottom-gallery.scss";
+@import "../../styles/utility/variables";
 
-*, *::before,*::after{
-    font-family: $font-Raleway;
-    font-weight: 500;
-    font-size: $font-size-main;
-    color:$color-mine-shaft;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import "../../styles/utility/fonts";
+
+@import "../../styles/utility/visually-hidden";
+
+@import "../../styles/utility/content-wrapper";
+
+@import "../../styles/utility/lame-pc-wrapper";
+
+@import "../../styles/lets-start-button";
+
+@import "../mixins/main-furniture-item-mixin/styles/main-furniture-item-mixin";
+
+@import "../mixins/history-bg/styles/history-bg-mixin";
+
+@import "../../pug/includes/main-header/styles/header-content";
+
+@import "../includes/main-footer/styles/main-footer";
+
+@import "../includes/main-top-section/styles/life-content";
+
+@import "../includes/novelties/styles/novelties";
+
+@import "../includes/individual/styles/individual";
+
+@import "../includes/history/styles/history";
+
+@import "../includes/last-publications/styles/last-publications";
+
+@import "../includes/questions/styles/questions";
+
+@import "../includes/advantages/styles/advantages";
+
+@import "../includes/partners/styles/partners";
+
+@import "../includes/bottom-gallery/styles/bottom-gallery";
+
+*,
+*::before,
+*::after {
+  font-family: $font-Raleway;
+  font-weight: 500;
+  font-size: $font-size-main;
+  color: $color-mine-shaft;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

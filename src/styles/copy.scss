@@ -14,21 +14,21 @@
   cursor: pointer;
 }
 
-.lets-start-button--hover-scorpion {
+.lets-start-button__hover-scorpion {
   font-weight: 700;
 }
 
-.lets-start-button--hover-scorpion:hover {
+.lets-start-button__hover-scorpion:hover {
   background-color: $color-scorpion;
-  transition-duration: 0.4s;
+  transition-duration: .4s;
 }
 
-.lets-start-button--hover-scorpion:focus {
+.lets-start-button__hover-scorpion:focus {
   background-color: $color-scorpion;
-  transition-duration: 0.4s;
+  transition-duration: .4s;
 }
 
-.lets-start-button--alt-font {
+.lets-start-button--OpenSans13px {
   padding: 11px 12px;
   font-family: OpenSans;
   font-weight: 600;
@@ -38,28 +38,19 @@
   text-transform: uppercase;
 }
 
-.lets-start-button--alt-font::after {
-  position: relative;
-  margin-left: 16px;
-  margin-top: -3px;
-  width: 14.45px;
-  height: 2px;
-  background-color: white;
-}
-
 .lets-start-button--OpenSans13px:hover {
   color: $color-tree-poppy;
   background-color: $color-white;
-  transition-duration: 0.5s;
+  transition-duration: .5s;
 }
 
 .lets-start-button--OpenSans13px:focus {
   color: $color-tree-poppy;
   background-color: $color-white;
-  transition-duration: 0.5s;
+  transition-duration: .5s;
 }
 
-.lets-start-button__arrow {
+.lets-start-button_arrow {
   position: relative;
   margin-left: 16px;
   margin-top: -3px;
@@ -83,4 +74,8 @@
   padding: 2px;
   transform: rotate(-45deg);
   transform: translateY(-200px);
+}
+
+.gaga {
+  color: red;
 }
