@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx parcel D:/IT/Web-projects/ProjectOne/src/index.pug --no-cache",
+    "start": "npx parcel ./src/index.pug --no-cache",
     "lint": "npx stylelint ./src/**/*.scss",
     "fix": "npx stylelint ./src/**/*.scss --fix"
   },
@@ -15,7 +15,8 @@
     "parcel": "^2.8.0",
     "pug": "^3.0.2",
     "stylelint-config-airbnb": "^0.0.0",
-    "stylelint-order": "^5.0.0"
+    "stylelint-order": "^5.0.0",
+    "swiper": "^8.4.5"
   },
   "devDependencies": {
     "@parcel/transformer-pug": "^2.8.0",

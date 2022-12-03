@@ -39,12 +39,6 @@
   margin-left: -1px;
 }
 
-.life-content__img-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
 .life-content__founded {
   margin-top: 36px;
   font-size: 20px;
@@ -57,11 +51,10 @@
   margin-top: 50px;
 }
 
-.life-content__slider-placeholder {
-  align-self: center;
-  margin-top: 5px;
+.life-content__img-wrapper {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .life-content__circle {
@@ -73,4 +66,8 @@
 
 .life-content__circle--null {
   background-color: rgb(242 243 245 / 100%);
+}
+
+.life-content__slider {
+  margin-top: 34px;
 }

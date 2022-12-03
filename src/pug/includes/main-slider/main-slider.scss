@@ -1,0 +1,27 @@
+.swiper {
+  width: 870px;
+  height: 650px;
+}
+
+.swiper-pagination-bullet {
+  width: 13px !important;
+  height: 13px !important;
+  background-color: #f2f3f5 !important;
+  border-radius: 100% !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 13px !important;
+  height: 13px !important;
+  background-color: #ff9619 !important;
+  border-radius: 100% !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  width: 100%;
+  bottom: -4px !important;
+  left: 5px !important;
+}

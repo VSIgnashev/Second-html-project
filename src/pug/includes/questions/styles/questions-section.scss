@@ -1,16 +1,16 @@
-.questions {
+.questions-section {
   min-height: 479px;
   background-color: $color-opal;
 }
 
-.questions__body {
+.questions-section__body {
   position: relative;
   margin-top: 8px;
   display: flex;
   align-items: center;
 }
 
-.questions__form {
+.questions {
   position: relative;
   right: 70px;
   max-width: 470px;
@@ -58,12 +58,11 @@
   row-gap: 22px;
 }
 
-
 .questions__input {
   padding-bottom: 5px;
   width: 371px;
   border: none;
-  border-bottom: 1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
   z-index: 1;
 }
 
