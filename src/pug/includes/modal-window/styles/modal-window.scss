@@ -1,0 +1,17 @@
+.modal {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background-color: red;
+}
+
+.blur-background {
+  position: relative;
+  background-color: red;
+  z-index: 5;
+}
+
+.blur-background::backdrop {
+  background-color: purple;
+  opacity: 0.5;
+}

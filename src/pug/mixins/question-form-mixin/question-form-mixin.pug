@@ -1,0 +1,25 @@
+mixin question-form-mixin(add)
+    form.questions-form(action="#" class=add) 
+                h3.questions-form__subheader Заполните форму
+                h2.questions-form__header остались вопросы?
+                .questions-form__inner-form-wrapper
+                    label.visually-hidden(for="name" class="vi") Name
+                    input.questions-form__input.questions-form__name(type="text" id="name" placeholder="Ваше имя*")
+
+                    label.visually-hidden(for="number" class="visuallyhidden") Phone number
+                    input.questions-form__input.questions-form__number(type="tel" id="number" placeholder="Ваш номер телефона*")
+
+                    label.visually-hidden(for="country") Country
+                    input.questions-form__input.questions-form__country(type="text" id="country" placeholder="Страна") 
+
+                    label.visually-hidden(for="commentary") Commentary
+                    input.questions-form__input.questions-form__commentary(type="text" id="commentary" placeholder="Комментарий")
+
+                    .questions-form__checkbox-wrapper
+                        label.visually-hidden(for="user-agreement") user agreement
+                        input.questions-form__checkbox(type="checkbox" id="user-agreement")
+                        .agreement-wrapper
+                            p.questions-form__agreement Подтверждая заказ, я принимаю условия пользовательского соглашения
+
+                    label.visually-hidden(for="submit-button") Request a call
+                    button.questions-form__button.lets-start-button.lets-start-button--hover-scorpion(type="submit" id="submit-button") запросить звонок     

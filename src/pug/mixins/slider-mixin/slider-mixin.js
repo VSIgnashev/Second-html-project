@@ -1,7 +1,7 @@
 import Swiper from 'swiper/swiper-bundle';
 import 'swiper/swiper.min.css'
 import 'swiper/modules/pagination/pagination.min.css'
-import './main-slider.scss'
+import './styles/slider-mixin.scss'
 
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',

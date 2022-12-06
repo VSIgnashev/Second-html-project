@@ -1,5 +1,7 @@
 include \..\mixins\main-furniture-item-mixin\main-furniture-item-mixin.pug
 include \..\mixins\history-bg\history-bg-mixin.pug
+include \..\mixins\slider-mixin\slider-mixin.pug
+include \..\mixins\question-form-mixin\question-form-mixin.pug
 doctype html
 html(lang="ru")
     head
@@ -8,13 +10,14 @@ html(lang="ru")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Document
         link(rel="stylesheet", href="./pug/layouts/main-style.scss")
-        block additional-style
-    body
-            block header
+        block additional-style 
+        body
+            include /pug/includes/modal-window/modal-window.pug    
+                block header
+                    .lame-pc-wrapper
+                        include /pug/includes/main-header/main-header.pug
+                        include /pug/includes/main-top-section/main-top-section.pug
                 .lame-pc-wrapper
-                    include /pug/includes/main-header/main-header.pug
-                    include /pug/includes/main-top-section/main-top-section.pug
-            .lame-pc-wrapper
-                block body
-            block footer
-                include /pug/includes/main-footer/main-footer.pug
+                    block body
+                block footer
+                    include /pug/includes/main-footer/main-footer.pug
