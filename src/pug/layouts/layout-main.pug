@@ -12,12 +12,12 @@ html(lang="ru")
         link(rel="stylesheet", href="./pug/layouts/main-style.scss")
         block additional-style 
         body
-            include /pug/includes/modal-window/modal-window.pug    
-                block header
-                    .lame-pc-wrapper
-                        include /pug/includes/main-header/main-header.pug
-                        include /pug/includes/main-top-section/main-top-section.pug
+            block header
                 .lame-pc-wrapper
-                    block body
-                block footer
-                    include /pug/includes/main-footer/main-footer.pug
+                    include /pug/includes/main-header/main-header.pug
+                    include /pug/includes/main-top-section/main-top-section.pug
+            .lame-pc-wrapper
+                block body
+            block footer
+                include /pug/includes/main-footer/main-footer.pug
+            include /pug/includes/modal-window/modal-window.pug
