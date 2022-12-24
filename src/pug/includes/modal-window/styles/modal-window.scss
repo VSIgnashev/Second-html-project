@@ -1,5 +1,7 @@
-.blur-background {
+.request-call-modal {
   display: none;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   z-index: 5;
   left: 0;
@@ -9,8 +11,4 @@
   height: 100%;
   background: rgba(24, 24, 24, 0.7);
   backdrop-filter: blur(4.5px);
-}
-
-.modal-question-form {
-  margin: 0 auto;
 }

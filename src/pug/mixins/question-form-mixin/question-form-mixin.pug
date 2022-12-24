@@ -1,6 +1,11 @@
-mixin question-form-mixin(add)
+mixin question-form-mixin(add, modal)
     form.questions-form(action="#" class=add) 
-                h3.questions-form__subheader Заполните форму
+                if modal
+                    button.question-form__cross-icon
+                        img(src="./icons/modal_cross_icon.svg", alt="cross close icon").question-form__cross-icon
+                    h3.questions-form__subheader Заполните форму
+                else
+                    h3.questions-form__subheader Заполните форму
                 h2.questions-form__header остались вопросы?
                 .questions-form__inner-form-wrapper
                     label.visually-hidden(for="name" class="vi") Name
