@@ -8,8 +8,12 @@
 }
 
 .question-form__cross-icon {
+  position: absolute;
   top: 3px;
   right: 5px;
+  z-index: 1;
+  cursor: pointer;
+  border: none;
 }
 
 .questions-form__subheader {
