@@ -3,7 +3,7 @@ import 'swiper/swiper.min.css'
 import 'swiper/modules/pagination/pagination.min.css'
 import './styles/slider-mixin.scss'
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.topper-slider', {
     direction: 'horizontal',
     loop: true,
 

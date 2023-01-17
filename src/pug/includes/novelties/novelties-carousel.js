@@ -1,11 +1,10 @@
 import Swiper from 'swiper/swiper-bundle';
 
 console.log('carousel')
-alert()
+alert('test')
 
-const noveltiesSwiper = new Swiper('.swiper-container', {
+const noveltiesSwiper = new Swiper('.novelties__slider-wrapper', {
     direction: 'horizontal',
     loop: true,
     slidesPerView: 2,
-    spaceBetween: 60,
 })
