@@ -9,6 +9,7 @@ const noveltiesSwiper = new Swiper('.novelties__slider-wrapper', {
     loop: true,
     slidesPerView: 3,
     centeredSlides: true,
+    spaceBetween: 80,
     navigation: {
         nextEl: '.novelties-slider-next',
         prevEl: '.novelties-slider-prev',

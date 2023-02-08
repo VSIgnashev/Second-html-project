@@ -15,6 +15,7 @@
   display: flex;
   justify-content: flex-start;
   padding-left: 51px;
+  //max-width: 1063px;
 }
 
 .novelties-slider-next::after {
@@ -23,6 +24,7 @@
   width: 18px;
   height: 30px;
   margin-top: 203px;
+  margin-left: 30px;
   background: url(/src/icons/grey_arrow_right.svg) no-repeat;
 }
 
@@ -35,9 +37,9 @@
   background: url(/src/icons/grey_arrow.svg) no-repeat;
 }
 
-.novelties__slider-wrapper {
-  margin-left: 0;
+.swiper-inner-pad {
   max-width: 970px;
+  margin-left: 29px;
 }
 
 .novelties__first-letter {
@@ -52,6 +54,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  //flex-basis: content;
+  //max-width: 1018px;
 }
 
 .novelties__slider-left-arrow {
