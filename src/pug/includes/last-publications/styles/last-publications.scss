@@ -32,20 +32,33 @@ button.publications__slider-left-arrow {
   margin-top: -37px;
 }
 
-.publications__images-wrapper {
-  margin-left: 18px;
-  display: flex;
-  column-gap: 7px;
+.publications__slider-pad {
+  max-width: 1100px;
+  margin-left: 19px;
+}
+
+.publications__slider-left-arrow {
+  align-self: flex-start;
+  margin-top: 125px;
+}
+.publications__slider-left-arrow::after {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 23px;
+  background: url(/src/icons/last_publications_left_arrow.svg) no-repeat;
 }
 
 .publications__slider-right-arrow {
-  border: none;
-  background-color: $color-white;
-  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 125px;
+  margin-left: 20px;
 }
 
-.publications__arrow-right {
-  margin-top: -37px;
-  margin-left: 20px;
-  transform: rotate(180deg);
+.publications__slider-right-arrow::after {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 23px;
+  background: url(/src/icons/last_publications_right_arrow.svg) no-repeat;
 }
