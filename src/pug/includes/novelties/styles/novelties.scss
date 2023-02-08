@@ -11,6 +11,35 @@
   line-height: 110%;
 }
 
+.swiper-pad {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 51px;
+}
+
+.novelties-slider-next::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 30px;
+  margin-top: 203px;
+  background: url(/src/icons/grey_arrow_right.svg) no-repeat;
+}
+
+.novelties-slider-prev::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 30px;
+  margin-top: 203px;
+  background: url(/src/icons/grey_arrow.svg) no-repeat;
+}
+
+.novelties__slider-wrapper {
+  margin-left: 0;
+  max-width: 970px;
+}
+
 .novelties__first-letter {
   font-weight: 700;
   font-size: 35px;

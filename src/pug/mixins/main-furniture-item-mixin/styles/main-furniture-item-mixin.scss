@@ -7,6 +7,15 @@
   background-color: $color-athens-gray;
 }
 
+.furniture-item {
+  max-width: 270px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .furniture-item__img {
   width: 267px;
   height: auto;

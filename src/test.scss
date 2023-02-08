@@ -1,0 +1,19 @@
+.outer {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+}
+
+.slide {
+  width: 200px;
+  height: 400px;
+  background-color: blue;
+}
+
+.slide2 {
+  background-color: red;
+}
+
+.slide3 {
+  background-color: yellow;
+}

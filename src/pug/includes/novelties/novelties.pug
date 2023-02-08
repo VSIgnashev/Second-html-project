@@ -1,18 +1,19 @@
 .content-wrapper.novelties
     .novelties__topper
         .novelties__heading #[span.novelties__first-letter Н]овинки
-    .swiper.novelties__slider-wrapper
-        button.novelties__slider-left-arrow
-            img.novelties__left-arrow(src="./icons/grey_arrow.svg", alt="")
-        .swiper-wrapper  
-            //.novelties__slider-images
-            .swiper-slide
-                +main-furniture-item-mixin('./items/Alba_newbie.png','Alba','15 000')
-            .swiper-slide
-                +main-furniture-item-mixin('./items/Martin.png','Martin','15 000')
-            .swiper-slide
-                +main-furniture-item-mixin('./items/Luara.png','Luara','15 000')
-        button.novelties__slider-right-arrow
-            img.novelties__right-arrow(src="./icons/grey_arrow.svg", alt="")
+    .swiper-pad
+        .novelties-slider-prev
+        .swiper.novelties__slider-wrapper
+            .swiper-wrapper
+                .swiper-slide
+                    +main-furniture-item-mixin('./items/Alba_newbie.png','Alba','15 000')
+                .swiper-slide
+                    +main-furniture-item-mixin('./items/Martin.png','Martin','15 000')
+                .swiper-slide
+                    +main-furniture-item-mixin('./items/Luara.png','Luara','15 000')
+        .novelties-slider-next
+
+            
+
     .novelties__button-row
         .novelties__button.lets-start-button.lets-start-button--hover-scorpion перейти в каталог
