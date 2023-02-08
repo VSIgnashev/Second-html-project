@@ -1,4 +1,5 @@
 import Swiper from 'swiper/swiper-bundle';
+import 'swiper/swiper-bundle.min.css';
 
 console.log('carousel')
 alert('test')
@@ -6,5 +7,10 @@ alert('test')
 const noveltiesSwiper = new Swiper('.novelties__slider-wrapper', {
     direction: 'horizontal',
     loop: true,
-    slidesPerView: 2,
+    slidesPerView: 3,
+    centeredSlides: true,
+    navigation: {
+        nextEl: '.novelties-slider-next',
+        prevEl: '.novelties-slider-prev',
+    },
 })
