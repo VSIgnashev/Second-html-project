@@ -5,6 +5,11 @@
   width: 270px;
   height: 278px;
   background-color: $color-athens-gray;
+  transition: transform 0.2s;
+}
+
+.furniture-item__rectangle:hover {
+  transform: scale(1.05);
 }
 
 .furniture-item {
