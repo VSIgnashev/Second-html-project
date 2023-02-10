@@ -2,7 +2,7 @@ import Swiper from 'swiper/swiper-bundle';
 import 'swiper/swiper-bundle.min.css';
 
 console.log('carousel')
-alert('test')
+
 
 const noveltiesSwiper = new Swiper('.publications__slider-wrapper', {
     direction: 'horizontal',
