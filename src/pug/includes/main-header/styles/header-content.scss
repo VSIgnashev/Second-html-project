@@ -16,16 +16,18 @@
   column-gap: 15px;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .header-content__item {
+    margin-left: auto;
+  }
+}
+
 .header-content__item {
   margin-left: 47px;
 }
 
 .header-content__item_noml {
   margin-left: 0;
-}
-
-.header-content__item--margin-left {
-  margin-left: 51px;
 }
 
 .header-content__item_ml-46 {
@@ -92,4 +94,10 @@
 
 .header-content__language-dropdown::-ms-expand {
   display: none;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .header-content__item {
+    margin-left: auto;
+  }
 }
