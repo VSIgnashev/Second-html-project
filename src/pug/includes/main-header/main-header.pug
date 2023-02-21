@@ -1,5 +1,5 @@
 header.header-content
-    .content-wrapper.header-content__wrapper
+    .header-content__wrapper
         ul.header-content__list
             li.header-content__item.header-content__item_noml.header-content--mobile-hide
                 label(for="catalog")
@@ -22,15 +22,14 @@ header.header-content
             li.header-content__item.header-content__item_ml-46.header-content--mobile-hide
                 a.header-content__link(href="#") О компании
         p.header-content__number.header-content--mobile-hide +38 (099)-638-45-37
+        .header-content__phone-button.header-content--mobile-show
+            img(src="./icons/phone_icon.svg", alt="phone icon")
         .header-content__select-lang-wrapper
             label(for="language-select") 
             select#language-select.header-content__language-dropdown(name="language")
                 option(value="RU") RU
                 option(value="UA") EU
                 option(value="EN") EN
-        .header-content__mobile-dropdown
-            .button(type="submit")
-                img(src="./icons/mobile_dropdown_icon.svg", alt="")
-            .header-content__dropdown-content
+        +dropdown-navigation('header-content__mobile-dropdown')
             
             
