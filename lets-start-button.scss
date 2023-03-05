@@ -21,6 +21,7 @@
 
 .lets-start-button__hover-scorpion{
     font-weight: 700;
+    display: none;
 }
 
 .lets-start-button__hover-scorpion:hover{
@@ -88,4 +89,9 @@
     transform: translateY(-200px);
 }
 
+.avc{
+    display: none;
+    order: 3;
+
+}
 

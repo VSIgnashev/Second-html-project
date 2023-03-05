@@ -1,9 +1,15 @@
 .content-wrapper.history
     +history-bg
     .history__heading #[span.history__first-letter Н]аша история
-    .history__subheader Наработки длинной в 25 лет
-    .history__p Каждый производитель заявляет, что делает все для своих покупателей, но не каждый производитель способен подтвердить свои заявления многолетней историей
-    .history__timeline
-        p.history__first-date 1993  
-        p.history__middle-date 25 лет
-        p.history__last-date 2021
+    .history_bg
+        .history__subheader Наработки длинной в 25 лет
+        .history__p Каждый производитель заявляет, что делает все для своих покупателей, но не каждый производитель способен подтвердить свои заявления многолетней историей
+        .history__img-wrapper
+            img(src="./images/history_pic.jpg", alt="").history__image
+        .history__timeline
+            p.history__first-date.history--mobile-hide 1993  
+            p.history__middle-date 25 лет
+            p.history__last-date.history--mobile-hide 2021
+        .history__mobile-timeline.history--mobile-show
+            p.history__mobile-first-date 1993
+            p.history__mobile-last-date 2021

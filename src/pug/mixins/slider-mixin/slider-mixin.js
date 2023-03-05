@@ -12,5 +12,4 @@ const swiper = new Swiper('.topper-slider', {
         el: '.swiper-pagination',
         type: 'bullets',
     },
-
 });

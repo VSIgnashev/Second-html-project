@@ -72,3 +72,84 @@
   line-height: 127.5%;
   color: $color-mine-shaft;
 }
+
+.history--mobile-show{
+  display: none;
+}
+
+
+@media screen and (min-width:320px) and (max-width:768px) {
+  
+  .history{
+    min-height: 736px;
+    margin-top: 95px;
+    
+  }
+
+  .history_bg{
+    min-height: 254px;
+    background: url(../../backgrounds/history_mobile_bg.jpg) no-repeat;
+    margin-top: 33px;
+    padding-top: 50px;
+  }
+  .history__heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: $color-mine-shaft;
+    margin-left: 19px;
+  }
+  
+  .history__first-letter {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: $color-tree-poppy
+  }
+
+  .history__subheader{
+    font-size: 16px;
+    margin-left: 19px;
+    margin-top:0px;
+  }
+
+  .history__p{
+    line-height: 135%;
+    font-size: 14px;
+    max-width: 340px;
+    margin-top: 10px;
+    margin-left: 18px;
+  }
+
+  .history__middle-date{
+    font-size: 111px;
+    margin: 0 auto;
+  }
+
+  .history__mobile-timeline{
+    display: flex;
+    margin-left: 19px;
+    margin-right: 19px;
+    justify-content: space-between;
+  }
+
+  .history--mobile-hide{
+    display: none;
+  }
+  .history__img-wrapper{
+    margin-top: 49px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .history__timeline{
+    margin-top: 60px;
+  }
+
+  .history__image{
+    width: 339;
+    height: 233;
+  }
+
+
+}

@@ -14,4 +14,17 @@ const noveltiesSwiper = new Swiper('.novelties__slider-wrapper', {
         nextEl: '.novelties-slider-next',
         prevEl: '.novelties-slider-prev',
     },
+
+    breakpoints:{
+        320:{
+            slidesPerView:1,
+        },
+        1024:{
+            slidesPerView:2,
+            centeredSlides:false
+        },
+        769:{
+            slidesPerView:3
+        }
+    }
 })

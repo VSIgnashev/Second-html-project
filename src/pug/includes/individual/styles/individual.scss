@@ -1,7 +1,10 @@
+
 .individual {
+  width: 1440px;
+  margin: 0  auto;
   margin-top: 160px;
-  background-image: url(../../backgrounds/individual_bg.jpg);
   min-height: 520px;
+  background: url(../../backgrounds/individual_bg.jpg) no-repeat;
 }
 
 .individual__body {
@@ -11,8 +14,8 @@
 }
 
 .individual__img {
-  margin-top: 65px;
-  margin-left: 70px;
+  margin-top: 67px;
+  margin-left: 205px;
 }
 
 .individual__text-wrapper {
@@ -23,13 +26,14 @@
 }
 
 .individual__dec-subtitle {
-  margin-top: 60px;
+  letter-spacing: .245em;
+  color: #fff;
   align-self: flex-end;
-  font-weight: 400;
+  margin-top: 62px;
+  margin-right: 132px;
   font-size: 15px;
-  letter-spacing: 0.245em;
-  color: $color-white;
-}
+  font-weight: 400;
+} 
 
 .individual__heading {
   margin-top: 59px;
@@ -69,4 +73,90 @@
 
 .individual__buttton {
   margin-top: 30px;
+}
+
+.individual--mobile-show{
+  display: none;
+}
+
+
+@media screen and (min-width:320px) and (max-width:768px) {
+  .individual {
+   width:100%;
+   min-height: 587px;
+    background: url(../../backgrounds/individual_mobile_bg.jpg) repeat-x  ;
+  }
+
+  .individual__img {
+    order: 2;
+    width: 340px;
+    height: 239px;
+    margin-left: 0;
+  }
+
+  .individual__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .individual__text-wrapper{
+    width: 375px;
+  }
+
+  .individual__dec-subtitle{
+    font-size: 10px;
+    line-height: 129.5%;
+    margin-top: 48px;
+    margin-right: 26px;
+  }
+
+  .individual__heading {
+    margin-top: 53px;
+    margin-left: 18px;
+    font-size: 20px;
+    color: $color-white;
+  }
+  
+  .individual__first-letter {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: $color-tree-poppy;
+  }
+
+  .individual__cicle {
+    margin-top: 20px;
+    margin-left: 18px;
+    font-size: 16px;
+    line-height: 125%;
+  }
+
+  .individual__p {
+    font-size: 14px;
+    max-width: 340px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 18px
+  }
+
+  
+
+  .individual__buttton{
+    display: block;
+    order: 3;
+    font-size: 16px;
+    padding-left: 18px;
+    padding-right: 19px;
+    margin-top: 89px;
+  }
+.individual--mobile-show{
+    display: block;
+  }
+
+  .individual--mobile-hide{
+    display: none;
+  }
+
 }
