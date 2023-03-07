@@ -15,18 +15,18 @@ const noveltiesSwiper = new Swiper('.publications__slider-wrapper', {
     },
     scrollbar: {
         el: '.swiper-scrollbar',
-      },
-      breakpoints:{
-        320:{
-            slidesPerView:1,
+    },
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
         },
-        769:{
-            slidesPerView:2,
-            centeredSlides:false
+        769: {
+            slidesPerView: 2,
+            centeredSlides: false
         },
-        1024:{
-            slidesPerView:3,
-            centeredSlides:true
+        1024: {
+            slidesPerView: 4,
+            centeredSlides: false
         }
 
     }
