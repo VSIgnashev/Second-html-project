@@ -23,6 +23,42 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .swiper-img {
-    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 375px;
+    width: 100%;
+    overflow: hidden;
+
+    img,
+    picture {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    width: 100%;
+    position: absolute;
+    bottom: -5px !important;
+    left: 50px !important;
+  }
+
+  .swiper-pagination-bullet {
+    width: 7px !important;
+    height: 7px !important;
+    background-color: #f2f3f5 !important;
+    border-radius: 100% !important;
+  }
+  .swiper-pagination-bullet-active {
+    width: 7px !important;
+    height: 7px !important;
+    background-color: #ff9619 !important;
+    border-radius: 100% !important;
   }
 }
