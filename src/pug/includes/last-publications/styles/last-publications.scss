@@ -1,3 +1,14 @@
+.swiper-scrollbar-drag {
+  height: 100%;
+  width: 100%;
+  background: #003cff80 !important;
+  border-radius: 10px;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: -50px !important;
+}
+
 .publications {
   margin-top: 114px;
   min-height: 588px;
@@ -71,6 +82,7 @@ button.publications__slider-left-arrow {
 
   .publications__slider-pad {
     width: auto;
+    margin-left: 0px;
   }
 
   .publications__first-letter {
