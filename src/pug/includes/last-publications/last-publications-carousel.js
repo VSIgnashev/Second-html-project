@@ -6,7 +6,7 @@ console.log('carousel')
 
 const noveltiesSwiper = new Swiper('.publications__slider-wrapper', {
     direction: 'horizontal',
-    loop: false,
+    loop: true,
     slidesPerView: 4,
     spaceBetween: 7,
     navigation: {

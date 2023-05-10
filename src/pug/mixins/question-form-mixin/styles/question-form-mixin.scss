@@ -1,4 +1,5 @@
 .questions-form {
+  display: block;
   position: relative;
   max-width: 470px;
   width: 100%;
@@ -99,4 +100,54 @@
 
 .questions-form__button {
   margin-top: 4px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .questions-form {
+    position: relative;
+    max-width: 340px;
+    min-height: 320px;
+    background-color: $color-white;
+  }
+
+  .questions-form__header::before {
+    content: "";
+  }
+  .questions-form__inner-form-wrapper {
+    row-gap: 14px;
+    margin-top: -23px;
+  }
+  .questions-form__subheader {
+    margin-top: 22px;
+    margin-left: 36px;
+    font-size: 10px;
+  }
+
+  .questions-form__header {
+    font-size: 20px;
+    margin-top: -118px;
+    margin-left: 36px;
+  }
+
+  .questions-form__input::placeholder {
+    font-size: 10px;
+  }
+
+  .questions-form__input {
+    padding-bottom: 0px;
+    width: 268px;
+    border: none;
+    border-bottom: 1px solid #d1d1d1;
+    z-index: 1;
+  }
+
+  .questions-form__checkbox-wrapper {
+    margin-top: 3px;
+    margin-left: -27px;
+    column-gap: 7px;
+  }
+  .questions-form__checkbox {
+    margin-top: 7px;
+    width: 15px;
+    height: 15px;
+  }
 }

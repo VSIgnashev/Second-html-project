@@ -1,97 +1,90 @@
 @import "./utility/variables.scss";
 
-.lets-start-button{
-    display: flex;
-    align-items: center;    
-    
-    padding: 9px 21px;
+.lets-start-button {
+  display: flex;
+  align-items: center;
 
+  padding: 9px 21px;
 
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    text-transform: uppercase;
-    color:$color-white;
-    
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: $color-white;
 
-    border:none;
-    background-color: $color-tree-poppy;
-    cursor:pointer;
+  border: none;
+  background-color: $color-tree-poppy;
+  cursor: pointer;
 }
 
-.lets-start-button__hover-scorpion{
-    font-weight: 700;
-    display: none;
+.lets-start-button__hover-scorpion {
+  font-weight: 700;
+  display: none;
 }
 
-.lets-start-button__hover-scorpion:hover{
-    background-color:$color-scorpion;
-    transition-duration: 0.4s;
+.lets-start-button__hover-scorpion:hover {
+  background-color: $color-scorpion;
+  transition-duration: 0.4s;
 }
 
-.lets-start-button__hover-scorpion:focus{
-    background-color:$color-scorpion;
-    transition-duration: 0.4s;
+.lets-start-button__hover-scorpion:focus {
+  background-color: $color-scorpion;
+  transition-duration: 0.4s;
 }
 
+.lets-start-button--OpenSans13px {
+  padding: 11px 12px;
 
-.lets-start-button--OpenSans13px{
-    padding: 11px 12px;
-    
-    font-family: 'OpenSans';
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 150%;
-    color:$color-white;
-    text-transform: uppercase;
+  font-family: "OpenSans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  color: $color-white;
+  text-transform: uppercase;
 }
 
-.lets-start-button--OpenSans13px:hover{
-    color:$color-tree-poppy;
-    background-color:$color-white;
-    transition-duration: 0.5s;
+.lets-start-button--OpenSans13px:hover {
+  color: $color-tree-poppy;
+  background-color: $color-white;
+  transition-duration: 0.5s;
 }
 
-.lets-start-button--OpenSans13px:focus{
-    color:$color-tree-poppy;
-    background-color:$color-white;
-    transition-duration: 0.5s;
+.lets-start-button--OpenSans13px:focus {
+  color: $color-tree-poppy;
+  background-color: $color-white;
+  transition-duration: 0.5s;
 }
 
+.lets-start-button_arrow {
+  position: relative;
+  margin-left: 16px;
+  margin-top: -3px;
 
-
-.lets-start-button_arrow{
-    position: relative;
-    margin-left: 16px;
-    margin-top: -3px;
-
-    width: 14.45px;
-    height: 2px;
-    background-color:white;
+  width: 14.45px;
+  height: 2px;
+  background-color: white;
 }
 
-.lets-start-button_arrow:hover{
-    color:$color-tree-poppy;
+.lets-start-button_arrow:hover {
+  color: $color-tree-poppy;
 }
 
-.lets-start-button_arrow::after{
-    position:relative;
-    top: -11px;
-    right: -6px;
-    
-    content: '';
-    display: inline-block;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    padding: 2px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: translateY(-200px);
+.lets-start-button_arrow::after {
+  position: relative;
+  top: -11px;
+  right: -6px;
+
+  content: "";
+  display: inline-block;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  padding: 2px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: translateY(-200px);
 }
 
-.avc{
-    display: none;
-    order: 3;
-
+.avc {
+  display: none;
+  order: 3;
 }
-
